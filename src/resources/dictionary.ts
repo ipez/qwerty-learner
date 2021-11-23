@@ -12,8 +12,9 @@ export type Dictionary = {
  * Why arrays? Because it keeps the order across browsers.
  */
 export const dictionaries: Dictionary[] = [
-  { id: 'scb', name: '生词本', description: '大学英语四级词库', category: '英语学习', url: './dicts/shengciben.json', length: 260 },
+  
   { id: 'cet4', name: 'CET-4', description: '大学英语四级词库', category: '英语学习', url: '', length: 2607 },
+  { id: 'scb', name: '生词本', description: '大学英语四级词库', category: '英语学习', url: './dicts/shengciben.json', length: 2600},
   { id: 'cet6', name: 'CET-6', description: '大学英语六级词库', category: '英语学习', url: './dicts/CET6_T.json', length: 2345 },
   { id: 'gmat', name: 'GMAT', description: 'GMAT 词库', category: '英语学习', url: './dicts/GMAT_3_T.json', length: 3047 },
   { id: 'gre', name: 'GRE', description: 'GRE 词库', category: '英语学习', url: './dicts/GRE_3_T.json', length: 6515 },
